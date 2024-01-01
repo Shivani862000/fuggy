@@ -1,9 +1,9 @@
-import { useState, useEffect, useContext } from "react";
+import { useState, useContext } from "react";
 import Mylogo from "../assets/images/swiggy.svg";
 import { Link } from "react-router-dom";
 // import { useContext } from "react";
 import { useSelector } from "react-redux";
-import { useLocation } from 'react-router-dom'
+// import { useLocation } from 'react-router-dom'
 import UserContenxt from "../utils/UserContext";
 
 
@@ -19,21 +19,21 @@ const Title = () => (
 const Header = () => {
 
    const useCont = useContext(UserContenxt)
-  const [isFixed, setIsFixed]=useState(false);
-  const location = useLocation();
+  // const [isFixed, setIsFixed]=useState(false);
+  // const location = useLocation();
   const cartItems = useSelector(store => store.cart.items);
   const [btnName, setBtnName] = useState("Login");
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsFixed(true);
-      } else {
-        setIsFixed(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 50) {
+  //       setIsFixed(true);
+  //     } else {
+  //       setIsFixed(false);
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
-  },[]);
+  //   window.addEventListener('scroll', handleScroll);
+  // },[]);
   return (
     <div className={ `font-Lato  w-full `}>
       <div className="bg-fixed items-center bg-black shadow-xl flex flex-col sm:justify-between sm:flex-row ">
@@ -41,13 +41,13 @@ const Header = () => {
         <div className="nav-items py-5 whitespace-nowrap">
           <ul className="flex text-white space-x-1 mx-4 ">
            
-            <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800   ${location.pathname == "/about" ? "bg-slate-800" : "hover:scale-110"}`}>
+            <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800  `}>
               <Link className=" " to="/about">About</Link>
             </li>
-            <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800   ${location.pathname == "/help" ? "bg-slate-800" : "hover:scale-110"}`}>
+            <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800` }>
               <Link className="" to="/help">Help</Link>
             </li>
-            <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800   ${location.pathname == "/cart" ? "bg-slate-800" : "hover:scale-110"}`}>
+            <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800  `}>
               <Link data-testid="cart" className="" to="/cart">
                 Cart {`(${cartItems?.length})`}
               </Link>
@@ -62,7 +62,7 @@ const Header = () => {
                 {btnName}
               </button>
             </li>
-            <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800   ${location.pathname == "/dashboard" ? "bg-slate-800" : "hover:scale-110"}`}>
+            <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800   `}>
               <Link className=" " to="/dashboard">{useCont.loggedInUser}</Link>
             </li>
           </ul>

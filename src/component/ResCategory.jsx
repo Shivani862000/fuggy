@@ -1,6 +1,5 @@
 import { ItemList } from "./ItemList";
 
-import { useState } from "react";
 export const ResCategory =({category ,showItems,setShowIndex})=>{
     const data =category
     // const [show,setShow] = useState(false)

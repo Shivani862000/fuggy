@@ -1,4 +1,3 @@
-import Header from '../component/header';
 import {BofferCard} from '../component/BfyCards'
 import {TrestaurantCard} from '../component/TrestaurantCard';
 import {AllrestaurantCard , promotedCard} from '../component/AllrestaurantCard'
@@ -13,13 +12,12 @@ export const Dashboard =()=>{
      const [bannerC , setBannerC]= useState()
 
      const Promotedc = promotedCard(AllrestaurantCard)
-    let ApiLink='https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.52433180164408&lng=77.19500172883272&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING';
     useEffect(()=>{
         const fetchData = async()=>{
           try{
-            const data  = await fetch(ApiLink);
+            const data  = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.52433180164408&lng=77.19500172883272&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING');
             const result = await data.json();
-            const topRestaurant = result?.data?.cards[3].card?.card
+            // const topRestaurant = result?.data?.cards[3].card?.card
             const bannerCards = result?.data?.cards[0]
             // console.log(bannerCards)
             setBannerC(bannerCards)

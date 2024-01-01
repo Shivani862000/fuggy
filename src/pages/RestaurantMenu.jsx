@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { data } from "../data/restaurant";
 import {ResCategory} from '../component/ResCategory'
 

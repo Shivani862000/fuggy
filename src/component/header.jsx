@@ -22,17 +22,17 @@ const Header = () => {
   const location = useLocation();
   var homePath = location.pathname === '/'
   const cartItems = useSelector(store => store.cart.items);
-  const history = useNavigate()
+  const navi = useNavigate()
   function handleLogout(){
     signOut( database).then(val=>{
-     history('/');
+     navi('/');
      sessionStorage.clear()
     })
   }
   useEffect(()=>{
     if(!sessionStorage.getItem("login")){
-      history('/');
-      console.log('workomng')
+      navi('/');
+      // console.log('workomng')
     }
   },[])
 

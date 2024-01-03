@@ -5,16 +5,16 @@ import App from './App';
 import UserContenxt from './utils/UserContext';
 import { Provider } from 'react-redux';
 import appStore from './utils/appStore';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const name = sessionStorage.getItem('Username')
 root.render(
-
   <React.StrictMode>
     <Provider store={appStore}>
-  <UserContenxt.Provider value={{loggedInUser:"shivani"}}>
-  <App />
-  </UserContenxt.Provider>
-  </Provider>
+      <UserContenxt.Provider value={{ loggedInUser: name
+      }}>
+        <App />
+      </UserContenxt.Provider>
+    </Provider>
   </React.StrictMode>
 );
 

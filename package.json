@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.16",
     "axios": "^1.6.3",
+    "firebase": "^10.7.1",
     "keen-slider": "^6.8.6",
     "postcss": "^8.4.32",
     "postcss-cli": "^11.0.0",

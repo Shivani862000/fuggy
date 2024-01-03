@@ -25,13 +25,13 @@ const Header = () => {
   const navi = useNavigate()
   function handleLogout(){
     signOut( database).then(val=>{
-     navi('/');
+    //  navi('/');
      sessionStorage.clear()
     })
   }
   useEffect(()=>{
     if(!sessionStorage.getItem("login")){
-      navi('/');
+      // navi('/');
       // console.log('workomng')
     }
   },[])

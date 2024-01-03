@@ -1,4 +1,4 @@
-import { useState, useContext, useEffect} from "react";
+import {  useContext, useEffect} from "react";
 import Mylogo from "../assets/images/swiggy.svg";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -20,18 +20,18 @@ const Title = () => (
 const Header = () => {
    const useCont = useContext(UserContenxt)
   const location = useLocation();
-  var homePath = location.pathname == '/'
+  var homePath = location.pathname === '/'
   const cartItems = useSelector(store => store.cart.items);
   const history = useNavigate()
   function handleLogout(){
     signOut( database).then(val=>{
-     history('/')
+     history('/');
      sessionStorage.clear()
     })
   }
   useEffect(()=>{
     if(!sessionStorage.getItem("login")){
-      history('/')
+      history('/');
       console.log('workomng')
     }
   },[])

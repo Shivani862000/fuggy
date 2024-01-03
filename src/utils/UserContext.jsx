@@ -2,7 +2,8 @@ import { createContext } from "react";
 
 const UserContenxt = createContext(
     {
-        loggedInUser:"Default User"
+        loggedInUser:null,
+        email:"abcd@gmail.com"
     }
 );
 export default UserContenxt

@@ -10,6 +10,7 @@ import { Dashboard } from "./pages/dasboard";
 import Header from "./component/header";
 import RestaurantMenu from './pages/RestaurantMenu'
 import Cart from "./pages/Cart";
+
 function App() {
   return (
     <Router>
@@ -19,7 +20,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/cart" element={<Cart />} />
         <Route path="/about" element={<About />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/home" element={<Dashboard />} />
         <Route path="/restaurant/:id" element={ <RestaurantMenu/> }/>
       </Routes>
     </>

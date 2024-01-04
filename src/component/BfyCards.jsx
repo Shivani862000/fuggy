@@ -4,8 +4,8 @@ import thirdCard from '../assets/images/thirdCard.avif';
 export const BofferCard =()=>{
     return(
         <>
-        <div>
-            <h2 className='font-bold capitalize 2xl'>Bests Offer for you</h2>
+            <div className='my-16'>
+        <h1 className='font-bold text-2xl text-zinc-700'>shivani, what's on your mind?</h1>
             <div className=' flex gap-6 my-6 overflow-scroll'>
                 <div className='cursor-pointer' ><img className='lg:w-[452px] lg:h-[252px]' src={firsCard} alt='offer' /></div>
           

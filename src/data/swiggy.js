@@ -1,5 +1,5 @@
-function data() {
-  const swiggy = [
+
+ export const swiggy = 
     {
       statusCode: 0,
       data: {
@@ -3798,6 +3798,1330 @@ function data() {
                         widgetId:
                           "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
                       },
+                      {
+                        "info": {
+                            "id": "554962",
+                            "name": "CakeZone",
+                            "cloudinaryImageId": "6e6931318694ba3555409d584871936d",
+                            "locality": "MALVIYA NAGAR",
+                            "areaName": "Begumpur",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": [
+                                "Bakery",
+                                "Desserts",
+                                "Sweets",
+                                "Ice Cream"
+                            ],
+                            "avgRating": 4.4,
+                            "parentId": "7003",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 25,
+                                "lastMileTravel": 3,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25 mins",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-04 23:01:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "textExtendedBadges": [
+                                    {
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "shortDescription": "options available",
+                                        "fontColor": "#7E808C"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "",
+                                                    "fontColor": "#7E808C",
+                                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                                    "shortDescription": "options available"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "60% OFF",
+                                "subHeader": "UPTO ₹120"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/cakezone-malviya-nagar-begumpur-delhi-554962",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "456511",
+                            "name": "California Burrito",
+                            "cloudinaryImageId": "jaxsmppvaqvonlddfcid",
+                            "locality": "Saidulajab",
+                            "areaName": "Saket",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": [
+                                "Mexican",
+                                "American",
+                                "Salads",
+                                "Continental",
+                                "Keto",
+                                "Healthy Food"
+                            ],
+                            "avgRating": 4.6,
+                            "parentId": "1252",
+                            "avgRatingString": "4.6",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 21,
+                                "lastMileTravel": 1.1,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "21 mins",
+                                "lastMileTravelString": "1.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-05 03:00:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "textExtendedBadges": [
+                                    {
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "shortDescription": "options available",
+                                        "fontColor": "#7E808C"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "",
+                                                    "fontColor": "#7E808C",
+                                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                                    "shortDescription": "options available"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "40% OFF",
+                                "subHeader": "UPTO ₹80"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/california-burrito-saidulajab-saket-delhi-456511",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "17770",
+                            "name": "Baskin Robbins - Ice Cream Desserts",
+                            "cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
+                            "locality": "Shivalik Road",
+                            "areaName": "Malviya Nagar",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                                "Desserts",
+                                "Ice Cream"
+                            ],
+                            "avgRating": 4.3,
+                            "veg": true,
+                            "parentId": "5588",
+                            "avgRatingString": "4.3",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 25,
+                                "lastMileTravel": 2.9,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25 mins",
+                                "lastMileTravelString": "2.9 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-05 04:00:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/baskin-robbins-ice-cream-desserts-shivalik-road-malviya-nagar-delhi-17770",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "35834",
+                            "name": "Sweet Truth - Cake and Desserts",
+                            "cloudinaryImageId": "81cf6bfe2760a45a0caf2e28716ca4d7",
+                            "locality": "Old Market Malviya Nagar",
+                            "areaName": "Malviya Nagar",
+                            "costForTwo": "₹450 for two",
+                            "cuisines": [
+                                "Snacks",
+                                "Bakery",
+                                "Desserts",
+                                "Beverages"
+                            ],
+                            "avgRating": 4.2,
+                            "parentId": "4444",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 34,
+                                "lastMileTravel": 3.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "34 mins",
+                                "lastMileTravelString": "3.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-04 23:59:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "60% OFF",
+                                "subHeader": "UPTO ₹110"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/sweet-truth-cake-and-desserts-old-market-malviya-nagar-delhi-35834",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "435688",
+                            "name": "The Belgian Waffle Co.",
+                            "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
+                            "locality": "Ashok Vihar",
+                            "areaName": "Saket",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": [
+                                "Waffle",
+                                "Desserts",
+                                "Ice Cream"
+                            ],
+                            "avgRating": 4.4,
+                            "veg": true,
+                            "parentId": "2233",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 37,
+                                "lastMileTravel": 2.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "37 mins",
+                                "lastMileTravelString": "2.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-05 04:00:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "20% OFF",
+                                "subHeader": "UPTO ₹50"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/the-belgian-waffle-co-ashok-vihar-saket-delhi-435688",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "15845",
+                            "name": "Faasos - Wraps, Rolls & Shawarma",
+                            "cloudinaryImageId": "af33b81798b11deba338e94b7585d348",
+                            "locality": "Old Market Malviya Nagar",
+                            "areaName": "Malviya Nagar",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": [
+                                "Kebabs",
+                                "Fast Food",
+                                "Snacks",
+                                "American",
+                                "Healthy Food",
+                                "Desserts",
+                                "Beverages"
+                            ],
+                            "avgRating": 4.2,
+                            "parentId": "21809",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "10K+",
+                            "sla": {
+                                "deliveryTime": 51,
+                                "lastMileTravel": 3,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "51 mins",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-04 23:59:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "textExtendedBadges": [
+                                    {
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "shortDescription": "options available",
+                                        "fontColor": "#7E808C"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "",
+                                                    "fontColor": "#7E808C",
+                                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                                    "shortDescription": "options available"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "ITEMS",
+                                "subHeader": "AT ₹129"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/faasos-wraps-rolls-and-shawarma-old-market-malviya-nagar-delhi-15845",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "725575",
+                            "name": "Subway",
+                            "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
+                            "locality": "Saket",
+                            "areaName": "PVR Saket",
+                            "costForTwo": "₹350 for two",
+                            "cuisines": [
+                                "Salads",
+                                "Snacks",
+                                "Desserts",
+                                "Beverages"
+                            ],
+                            "avgRating": 3.9,
+                            "parentId": "2",
+                            "avgRatingString": "3.9",
+                            "totalRatingsString": "100+",
+                            "sla": {
+                                "deliveryTime": 25,
+                                "lastMileTravel": 2.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25 mins",
+                                "lastMileTravelString": "2.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-05 02:00:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "40% OFF",
+                                "subHeader": "UPTO ₹80"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/subway-saket-pvr-saket-delhi-725575",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "259719",
+                            "name": "NIC Ice Creams",
+                            "cloudinaryImageId": "85825a6d74b1059a63a9b688de9f67ce",
+                            "locality": "Begumpur",
+                            "areaName": "Malviya Nagar",
+                            "costForTwo": "₹120 for two",
+                            "cuisines": [
+                                "Ice Cream",
+                                "Desserts"
+                            ],
+                            "avgRating": 4.6,
+                            "veg": true,
+                            "parentId": "6249",
+                            "avgRatingString": "4.6",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 25,
+                                "lastMileTravel": 3,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25 mins",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-05 00:00:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "ITEMS",
+                                "subHeader": "AT ₹149"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/nic-ice-creams-begumpur-malviya-nagar-delhi-259719",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "15665",
+                            "name": "Behrouz Biryani - Royal & Safe",
+                            "cloudinaryImageId": "89fccaa76f2f760e2742b9e53d32bb69",
+                            "locality": "Old Market Malviya Nagar",
+                            "areaName": "Malviya Nagar",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": [
+                                "Biryani",
+                                "North Indian",
+                                "Kebabs",
+                                "Mughlai",
+                                "Lucknowi",
+                                "Hyderabadi",
+                                "Desserts",
+                                "Beverages"
+                            ],
+                            "avgRating": 4.4,
+                            "parentId": "1803",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "10K+",
+                            "sla": {
+                                "deliveryTime": 46,
+                                "lastMileTravel": 3.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "46 mins",
+                                "lastMileTravelString": "3.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-04 23:59:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "newg.png",
+                                        "description": "Gourmet"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "Gourmet",
+                                                    "imageId": "newg.png"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "50% OFF",
+                                "subHeader": "UPTO ₹100"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/behrouz-biryani-royal-and-safe-old-market-malviya-nagar-delhi-15665",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "82909",
+                            "name": "Wow! Momo",
+                            "cloudinaryImageId": "0984acc0ed7b914206dbbcb90297becc",
+                            "locality": "Saket",
+                            "areaName": "Saket",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                                "Tibetan",
+                                "Healthy Food",
+                                "Asian",
+                                "Chinese",
+                                "Snacks",
+                                "Continental",
+                                "Desserts",
+                                "Beverages"
+                            ],
+                            "avgRating": 4.2,
+                            "parentId": "1776",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 26,
+                                "lastMileTravel": 2.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "26 mins",
+                                "lastMileTravelString": "2.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-05 01:00:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "60% OFF",
+                                "subHeader": "UPTO ₹120"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/wow-momo-saket-delhi-82909",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "62875",
+                            "name": "LunchBox - Meals and Thalis",
+                            "cloudinaryImageId": "iwu6dtathykpgayzhkfq",
+                            "locality": "Old Market Malviya Nagar",
+                            "areaName": "Malviya Nagar",
+                            "costForTwo": "₹200 for two",
+                            "cuisines": [
+                                "Biryani",
+                                "North Indian",
+                                "Punjabi",
+                                "Healthy Food",
+                                "Desserts",
+                                "Beverages"
+                            ],
+                            "avgRating": 4.4,
+                            "parentId": "4925",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "10K+",
+                            "sla": {
+                                "deliveryTime": 42,
+                                "lastMileTravel": 3,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "42 mins",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-04 23:59:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "textExtendedBadges": [
+                                    {
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "shortDescription": "options available",
+                                        "fontColor": "#7E808C"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "",
+                                                    "fontColor": "#7E808C",
+                                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                                    "shortDescription": "options available"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "ITEMS",
+                                "subHeader": "AT ₹159"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/lunchbox-meals-and-thalis-old-market-malviya-nagar-delhi-62875",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "314425",
+                            "name": "Natural Ice Cream",
+                            "cloudinaryImageId": "ljlc7mqnabfak44rj8ca",
+                            "locality": "Old Market Malviya Nagar",
+                            "areaName": "Malviya Nagar",
+                            "costForTwo": "₹150 for two",
+                            "cuisines": [
+                                "Ice Cream",
+                                "Desserts"
+                            ],
+                            "avgRating": 4.6,
+                            "veg": true,
+                            "parentId": "2093",
+                            "avgRatingString": "4.6",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 31,
+                                "lastMileTravel": 3,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "31 mins",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-04 23:59:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "30% OFF",
+                                "subHeader": "UPTO ₹75"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/natural-ice-cream-old-market-malviya-nagar-delhi-314425",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "466657",
+                            "name": "Punjabi Angithi (Vegorama Group)",
+                            "cloudinaryImageId": "ycub7nmk6wp03cxixd25",
+                            "locality": "Shri Aurbindo Marg",
+                            "areaName": "Adchini",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                                "North Indian",
+                                "Chinese",
+                                "Tandoor",
+                                "Thalis"
+                            ],
+                            "avgRating": 4.2,
+                            "veg": true,
+                            "parentId": "465050",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "10K+",
+                            "sla": {
+                                "deliveryTime": 25,
+                                "lastMileTravel": 1.9,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25 mins",
+                                "lastMileTravelString": "1.9 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-05 00:00:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                        "description": "pureveg"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "pureveg",
+                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "₹125 OFF",
+                                "subHeader": "ABOVE ₹249",
+                                "discountTag": "FLAT DEAL"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/punjabi-angithi-vegorama-group-shri-aurbindo-marg-adchini-delhi-466657",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "289282",
+                            "name": "BOX8 - Desi Meals",
+                            "cloudinaryImageId": "69a061b7e0f951cef2b4947946f94ec6",
+                            "locality": "Begumpur",
+                            "areaName": "Malviya Nagar",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": [
+                                "North Indian",
+                                "Biryani",
+                                "Thalis",
+                                "Home Food"
+                            ],
+                            "avgRating": 4.4,
+                            "parentId": "10655",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "1K+",
+                            "sla": {
+                                "deliveryTime": 15,
+                                "lastMileTravel": 3,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "10-20 mins",
+                                "lastMileTravelString": "3.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-05 02:00:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "textExtendedBadges": [
+                                    {
+                                        "iconId": "guiltfree/GF_Logo_android_3x",
+                                        "shortDescription": "options available",
+                                        "fontColor": "#7E808C"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "",
+                                                    "fontColor": "#7E808C",
+                                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                                    "shortDescription": "options available"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "EVERY ITEM",
+                                "subHeader": "@ ₹179"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/box8-desi-meals-begumpur-malviya-nagar-delhi-289282",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                        "info": {
+                            "id": "143707",
+                            "name": "Rollsking",
+                            "cloudinaryImageId": "bop039j2x3wy6eg8cb3j",
+                            "areaName": "Malviya Nagar",
+                            "costForTwo": "₹250 for two",
+                            "cuisines": [
+                                "North Indian",
+                                "Fast Food",
+                                "Beverages"
+                            ],
+                            "avgRating": 4.1,
+                            "parentId": "4697",
+                            "avgRatingString": "4.1",
+                            "totalRatingsString": "10K+",
+                            "sla": {
+                                "deliveryTime": 32,
+                                "lastMileTravel": 2.9,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "32 mins",
+                                "lastMileTravelString": "2.9 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-01-05 05:00:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "50% OFF",
+                                "subHeader": "UPTO ₹100"
+                            },
+                            "loyaltyDiscoverPresentationInfo": {
+                                "logoCtx": {
+                                    "text": "BENEFITS",
+                                    "logo": "v1634558776/swiggy_one/OneLogo_3x.png"
+                                },
+                                "freedelMessage": "FREE DELIVERY"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {}
+                        },
+                        "analytics": {
+                            "context": "seo-data-9e9cb7e1-8a20-402a-9c67-c6311fd20635"
+                        },
+                        "cta": {
+                            "link": "https://www.swiggy.com/restaurants/rollsking-malviya-nagar-delhi-143707",
+                            "text": "RESTAURANT_MENU",
+                            "type": "WEBLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    }
                     ],
                     theme: "SeoRestaurantListingGridWidget",
                   },
@@ -6562,9 +7886,7 @@ function data() {
       sid: "bb05d41e-8cdb-4f60-8492-751c6e4df1a6",
       deviceId: "677ef08f-7e0d-d6d8-27e3-ad9dade1a345",
       csrfToken: "SYi7x5WMNavM-eSBq1QsQu1hA-50gEJejg33T99c",
-    },
-  ];
-  return swiggy;
-}
+    }
 
-export default data;
+
+

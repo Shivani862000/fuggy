@@ -50,9 +50,7 @@ const Header = () => {
                <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800  `}>
                  <Link className=" " to="/about">About</Link>
                </li>
-               <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800` }>
-                 <Link className="" to="/help">Help</Link>
-               </li>
+            
                <li className={`p-2 px-4 rounded-2xl hover:bg-slate-800  `}>
                  <Link data-testid="cart" className="" to="/cart">
                    Cart {`(${cartItems?.length})`}

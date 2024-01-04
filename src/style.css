@@ -9,7 +9,9 @@ html {
 * {
   font-family: 'Inter', sans-serif;
 }
-
+.container-max{
+  margin-top: 100px;
+}
 h1,
 h2,
 h3,

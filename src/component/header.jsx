@@ -1,4 +1,4 @@
-import { useState, useContext, useEffect} from "react";
+import {  useContext, useEffect} from "react";
 import Mylogo from "../assets/images/swiggy.svg";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -20,7 +20,7 @@ const Title = () => (
 const Header = () => {
    const useCont = useContext(UserContenxt)
   const location = useLocation();
-  var homePath = location.pathname == '/'
+  var homePath = location.pathname === '/'
   const cartItems = useSelector(store => store.cart.items);
   const navigate = useNavigate();
   function handleLogout(){
@@ -29,12 +29,12 @@ const Header = () => {
      sessionStorage.clear()
     })
   }
-  useEffect(()=>{
-    if(!sessionStorage.getItem("login")){
+  useEffect(() => {
+    if (!sessionStorage.getItem("login")) {
       navigate("/");
-      console.log('workomng')
+      console.log('working');
     }
-  },[])
+  }, [navigate]);
 
 
   return (

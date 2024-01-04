@@ -1,4 +1,4 @@
-import {  useContext, useEffect} from "react";
+import { useState, useContext, useEffect} from "react";
 import Mylogo from "../assets/images/swiggy.svg";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -6,7 +6,7 @@ import { useLocation } from 'react-router-dom'
 import UserContenxt from "../utils/UserContext";
 import { signOut } from "firebase/auth";
 import { database } from "../FirebaseConfig";
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const Title = () => (
   <Link className=" " to="/">  <div className="text-white flex items-center mx-4">
     <img data-testid="logo" className=" h-10" src={Mylogo} alt="" />
@@ -20,19 +20,19 @@ const Title = () => (
 const Header = () => {
    const useCont = useContext(UserContenxt)
   const location = useLocation();
-  var homePath = location.pathname === '/'
+  var homePath = location.pathname == '/'
   const cartItems = useSelector(store => store.cart.items);
-  const navi = useNavigate()
+  const navigate = useNavigate();
   function handleLogout(){
     signOut( database).then(val=>{
-    //  navi('/');
+      navigate("/");
      sessionStorage.clear()
     })
   }
   useEffect(()=>{
     if(!sessionStorage.getItem("login")){
-      // navi('/');
-      // console.log('workomng')
+      navigate("/");
+      console.log('workomng')
     }
   },[])
 

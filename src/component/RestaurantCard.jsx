@@ -8,10 +8,10 @@ const RestaurantCard = ({
   costForTwo,
 }) => {
   return (
-    <div className="w-full sm:w-1/2 md:w-1/2 lg:w-[250px] p-4">
-      <div className="relative pb-48 overflow-hidden">
+    <div className="w-full sm:w-[300px] md:w-[300px] lg:w-[300px] p-4 bg-white rounded-md shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105">
+      <div className="relative min-w-[180px] min-h-[180px] sm:w-[180px] md:w-[250px] lg:w-[270px] md:h-[180px] lg:h-[200px] sm:h-[180px] pb-3/4 overflow-hidden rounded-md">
         <img
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover rounded-md"
           src={CDN_URL + cloudinaryImageId}
           alt=""
         />
@@ -20,28 +20,19 @@ const RestaurantCard = ({
         <span className="inline-block px-2 py-1 leading-none bg-orange-200 text-orange-800 rounded-full font-semibold uppercase tracking-wide text-xs">
           Highlight
         </span>
-        <h2 className="mt-2 mb-2  font-bold">{name}</h2>
-     
+        <h2 className="mt-2 mb-2 font-bold text-xl truncate">{name}</h2>
       </div>
-      <div className="p-4 border-t border-b text-xs text-gray-700">
-        {avgRating < 4.2 ? (
-        <>
-           <h4 classNameName="heading pt-0 pr-5 text-base w-12 h-6 bg-green-600 text-white font-medium rounded-md">
-           ⭐{avgRating}
-         </h4>
-            <h3 className="mt-2 mb-2">{costForTwo ?? "₹200 for two"}</h3>
-            <p className="text-sm">{cuisines.join(", ")}</p>
-        </>
-        ) : (
-         <>
-          <h4 classNameName="heading pt-0 pr-5 text-base w-12 h-6 bg-green-600 text-white font-medium rounded-md">
+      <div className="p-4 border-t border-b text-sm text-gray-700">
+        <div className="flex items-center mb-2">
+          <h4 className="mr-2 text-base bg-green-600 text-white font-medium rounded-md p-1">
             ⭐{avgRating}
           </h4>
-             <h3 className="mt-2 mb-2">{costForTwo ?? "₹200 for two"}</h3>
-             <p className="text-sm">{cuisines.join(", ")}</p></>
-        )}
+          <h3 className="font-semibold">{costForTwo ?? "₹200 for two"}</h3>
+        </div>
+        <p className="text-sm">{cuisines.join(", ")}</p>
       </div>
     </div>
   );
 };
+
 export default RestaurantCard;

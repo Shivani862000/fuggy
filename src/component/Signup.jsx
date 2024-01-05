@@ -77,9 +77,7 @@ export const SignUp = () => {
               Submit
             </button>
           </form>
-          <a className="text-blue-700 text-center text-sm" href="/login">
-            Forgot password?
-          </a>
+         
         </div>
       </div>
     </>

@@ -1,65 +1,66 @@
 import { CDN_URL } from "../utils/constants";
 import { addItem, removeItem } from "../utils/cartSlice";
 import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 export const ItemList = ({ item }) => {
-  // console.log(item)
   const dispatch = useDispatch();
+  const items = useSelector((store) => store.cart.items);
+
   function handleItem(items) {
     dispatch(addItem(items));
-    //    console.log(items)
   }
-  function remove(){
-    dispatch(removeItem())
+
+  function remove() {
+    dispatch(removeItem());
   }
 
   return (
-    <>
-      <div>
-        {item.map((data) => {
-          return (
-            <>
-              <div
-                className="p-2 m-3 border-black border-b-[1px] flex justify-between"
-                key={data.card.info.id}
+    <div className="grid gap-4 p-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {item.map((data) => (
+        <div
+          key={data.card.info.id}
+          className="p-4 border border-gray-300 rounded-lg bg-white hover:shadow-lg transition-transform transform hover:scale-105"
+        >
+          <div className="mb-4">
+            <p className="text-lg font-semibold">{data.card.info.name}</p>
+            <p className="text-sm text-gray-600">
+              ₹{data.card.info.price / 100 || data.card.info.defaultprice}
+            </p>
+            <p className="text-xs text-gray-500">{data.card.info.description}</p>
+          </div>
+
+          <div className="mb-4">
+            <img
+              src={CDN_URL + data.card.info.imageId}
+              className="w-full h-auto rounded-lg shadow-md"
+              alt="item"
+            />
+          </div>
+
+          
+
+          <div className="flex justify-between items-center">
+            <div className="flex space-x-2">
+              <button
+                onClick={() => handleItem(data)}
+                className="text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
               >
-                <div>
-                  <p className="my-2">{data.card.info.name}</p>
-                  <span>
-                    ₹ {data.card.info.price/100 || data.card.info.defaultprice}
-                  </span>
+                Add+
+              </button>
 
-                  <p className="text-xs">{data.card.info.description}</p>
-                </div>
-
-                <div>
-                  <div>
-                    <img
-                      src={CDN_URL + data.card.info.imageId}
-                      className="w-[80px] h-auto "
-                      alt="item"
-                    />
-                  </div>
-                  <div className="flex mx-3">
-                    <button
-                      onClick={() => handleItem(data)}
-                      className="w-[100px] shadow-lg border-r-4 bg-white p-1 m-1   "
-                    >
-                      Add+
-                    </button>
-                    <button
-                      onClick={ remove}
-                      className=" w-[100px] shadow-lg border-r-4 bg-white p-1 m-1 "
-                    >
-                   remove -
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </>
-          );
-        })}
-      </div>
-    </>
+              {items.length !== 0 && (
+                <button
+                  onClick={remove}
+                  className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2"
+                >
+                  Remove -
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
   );
 };

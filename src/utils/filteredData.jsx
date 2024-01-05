@@ -6,3 +6,10 @@ export function filterData(searchText, allRestaurant) {
 
     return filterData;
 }
+
+export function filtertop(allRestaurant){
+ const filterTop = allRestaurant.filter((restaurant)=>
+    restaurant.info.avgRating >= 4.3)
+    // console.log(filterTop)
+ return filterTop
+}

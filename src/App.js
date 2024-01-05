@@ -1,12 +1,12 @@
 import "./index.css";
-import Home from "./pages";
+import MainScreen from "./pages";
+import { Home } from "./pages/Home";
 import About from "./pages/About";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import { Dashboard } from "./pages/dasboard";
 import Header from "./component/header";
 import RestaurantMenu from './pages/RestaurantMenu'
 import Cart from "./pages/Cart";
@@ -17,10 +17,10 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<MainScreen />} />
         <Route exact path="/cart" element={<Cart />} />
         <Route path="/about" element={<About />} />
-        <Route path="/home" element={<Dashboard />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/restaurant/:id" element={ <RestaurantMenu/> }/>
       </Routes>
     </>

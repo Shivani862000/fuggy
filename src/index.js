@@ -6,7 +6,7 @@ import UserContenxt from './utils/UserContext';
 import { Provider } from 'react-redux';
 import appStore from './utils/appStore';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const name = sessionStorage.getItem('Username')
+const name = sessionStorage.getItem('Username') || 'Hello'
 root.render(
   <React.StrictMode>
     <Provider store={appStore}>

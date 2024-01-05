@@ -2,7 +2,7 @@
 import React from "react";
 import { HomeScreen } from "../component/homeScreen";
  
-const Home = () => {
+const MainScreen = () => {
     return (
         <>
         <HomeScreen/>
@@ -10,4 +10,4 @@ const Home = () => {
     );
 };
  
-export default Home
+export default MainScreen

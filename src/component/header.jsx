@@ -9,7 +9,7 @@ import { database } from "../FirebaseConfig";
 import { useNavigate } from "react-router-dom";
 
 const Title = () => (
-  <Link className=" " to="/home">
+  <Link className=" " data-testid="logo" to="/home">
     <div className="text-white flex items-center mx-4">
       <img data-testid="logo" className="h-10" src={Mylogo} alt="" />
       <h1 className="font-serif font-bold text-2xl m-0 mx-1">Fuggy </h1>

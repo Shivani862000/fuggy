@@ -2,11 +2,11 @@ import React from "react";
 
 const About = () => {
   return (
-    <div class="container-max my-[150px] mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
+    <div className="container-max my-[150px] mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
       <div className="bg-gray-100 min-h-screen">
         <div className="container mx-auto p-8">
        
-          <h1 class="text-4xl font-extrabold text-gray-800 mb-6">
+          <h1 className="text-4xl font-extrabold text-gray-800 mb-6">
             I am Shivani Verma - Frontend Developer
           </h1>
           <p className="text-gray-600 mb-8">2 years of experience</p>
@@ -36,7 +36,7 @@ const About = () => {
                 <h2 className="text-2xl font-bold my-4 ">
                   Embarking on My Swiggy Clone Journey
                 </h2>
-                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                   Crafting a Swiggy clone has been a thrilling expedition,
                   marked by the adoption of cutting-edge technologies and best
                   practices. From leveraging the power of React.js for dynamic
@@ -44,53 +44,53 @@ const About = () => {
                   using React Redux, it's been a remarkable learning curve.
                   Here's a glimpse of my achievements:
                 </p>
-                <div class="mb-8">
-                  <p class="text-2xl font-semibold mb-4 text-blue-600">
+                <div className="mb-8">
+                  <p className="text-2xl font-semibold mb-4 text-blue-600">
                     Technologies and Techniques Mastered:
                   </p>
-                  <ul class="list-disc ml-8 text-gray-700">
-                    <li class="mb-2">
+                  <ul className="list-disc ml-8 text-gray-700">
+                    <li className="mb-2">
                       React.js for crafting dynamic and responsive user
                       interfaces.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Tailwind CSS for sleek styling and efficient design.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Git for seamless version control and collaborative
                       development.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Unit and integration testing with Jest for robust code
                       quality.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Live API integration to ensure real-time data updates.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       React Router DOM for seamless navigation.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Deployment strategies for hosting the application
                       flawlessly.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Crafting custom hooks for reusable logic, such as data
                       fetching.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Implementing higher-order components for enhanced code
                       reusability.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Creating a user-friendly search functionality for an
                       enriched experience.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Efficiently filtering data for optimal content
                       organization.
                     </li>
-                    <li class="mb-2">
+                    <li className="mb-2">
                       Enhanced styling and animations for a delightful user
                       interface.
                     </li>
